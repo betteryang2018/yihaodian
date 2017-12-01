@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{
+	font:12px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#333;
+}
+
+body,p,form,input,button,ol,ul,il,dl,dt,dd,h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+a{
+	color:#666;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+a:hover{
+	color:#ff4040;
+}
+
+.wrap{
+	margin:0 auto;
+	width:1228px;
+}
+
+img{
+	border:none;
+}
+
+/*footer部分CSS START*/
+
+.wrap_footer_begin{
+	background-color:#fff;
+	padding:30px 0 30px 30px;
+	width:1228px;
+}
+
+.footer_top_box{
+	padding:0 30px;
+}
+
+.footer_top_box a{
+	position:relative;
+	display:inline-block;
+	margin:0 40px 0px 35px;
+	height:100px;
+	width:206px;
+	overflow:hidden;
+	color:#333;
+}
+
+.footer_top_box img{
+	float:left;
+	margin-right:15px;
+}
+
+.footer_top_box b{
+	margin-top:10px;
+	display:inline-block;
+	font-size:16px;
+}
+
+.footer_top_box span{
+	display:block;
+	margin-top:5px;
+	color:#929292;
+	font-size:13px;
+}
+
+.footer_under_line{
+	border-bottom:1px solid #eee;
+	margin-bottom:25px;
+	margin-top:-3px;
+}
+
+.footer_medium_box{
+	height:180px;
+	width:1098px;
+	margin:0 auto;
+}
+
+.footer_medium_box .dlcontaint{
+	float:left;
+	height:150px;
+}
+
+.footer_medium_box .dlcontaint dl{
+	display:inline-block;
+	margin:0 92px 0 5px;
+	height:120px;
+	vertical-align:text-top;
+}
+
+.footer_medium_box .dlcontaint dt{
+	font-size:14px;
+	font-weight:bold;
+}
+
+.footer_medium_box .dlcontaint dd{
+	color:#666;
+	margin-top:8px;
+}
+
+.footer_medium_box .erweima{
+	float:left;
+	width:250px;
+	height:150px;
+}
+
+.footer_medium_box .ewm_left{
+	display:inline-block;
+	margin-right:45px;
+}
+
+.footer_medium_box .ewm_right{
+	display:inline-block;
+}
+
+.footer_medium_box .erweima span{
+	display:block;
+	margin-bottom:8px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.footer_bottom_box{
+	text-align:center;
+}
+
+.footer_bottom_box p{
+	margin-bottom:12px;
+}
+
+.footer_bottom_box a{
+	margin:0 3px;
+}
+
+.footer_bottom_box p.four{
+	margin-top:25px;
+}
+
+
+
+
+
+
+
+
+

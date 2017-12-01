@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html{
+	font:12px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#333;
+}
+
+body,p,form,input,button,ol,ul,il,dl,dt,dd,h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+body{
+	background-color:#f5f5f5;
+}
+
+a{
+	color:#666;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+img{
+	border:none;
+}
+
+a:hover{
+	color:#ff4040;
+}
+
+.wrap{
+	margin:0 auto;
+	width:1228px;
+}
+
+/*..................................mod_coupon部分css..........................*/
+
+.mod_coupon_wrap{
+	position:relative;
+	width:1228px;
+	height:107px;
+	box-shadow:0 0 1px 0 rgba(229,229,229,0.80);
+	margin-top:10px;
+}
+
+.mod_coupon_wrap .lqzx_left{
+	float:left;
+}
+
+.mod_coupon_wrap .lqzx_left a{
+	width:155px;
+	height:107px;
+	float:left;
+	background-color:#ec3639;
+	color:#fff;
+}
+
+.lqzx_left h4{
+	font-size:22px;
+	font-weight:100;
+	margin:10px 0 7px 20px;
+}
+
+.lqzx_left p{
+	font-size:14px;
+	margin:7px 0 7px 20px;
+	display:inline-block;
+}
+
+.lqzx_left p.specialys{
+	display:block;
+	color:rgba(255,255,255,0.60);
+}
+
+.lqzx_left .shuangjt{
+	width:10px;
+	height:10px;
+    margin-left:2px;
+}
+
+
+
+.mod_coupon_wrap .first_coupon_edge{
+	background:url(indexbody_sprite%20.png) no-repeat 0px 0px;
+	width:19px;
+	height:107px;
+	display:inline-block;
+}
+	
+.mod_coupon_wrap .coupon_edge{
+	background:url(indexbody_sprite%20.png) no-repeat -30px 0px;
+	width:19px;
+	height:107px;
+	float:left;
+}
+
+.mod_coupon_wrap .coupon_main{
+	float:left;
+	width:1035px;
+}
+
+.mod_coupon_wrap .coupon_main li{
+	position:relative;
+	display:inline-block;
+	width:174px;
+	height:72px;
+	float:left;
+	background:#fff;
+	color:#666;
+	text-align:center;
+	padding:20px 0px 15px 15px;
+	margin-left:-1px;
+	z-index:99;
+	box-shadow:0 1px 0 0px rgba(229,229,229,0.80);
+}
+
+
+.mod_coupon_wrap li.last_coupon{
+	padding-left:7px;
+	width:182px;
+}
+	
+.mod_coupon_wrap li.last_coupon .cp_main_containt{
+	margin-left:5px;
+	
+}	
+
+.mod_coupon_wrap .coupon_main li a{
+	float:left;
+	width:174px;
+	height:107px;
+	display:inline-block;
+	color:#9D9D9D;
+}
+
+.mod_coupon_wrap .take_more a{
+	width:19px;
+	height:85px;
+	float:left;
+	background:#fff;
+	color:#CBCBCB;
+	margin-left:-1px;
+	padding-top:22px;
+	z-index:100px;
+	box-shadow:0 1px 0 0px rgba(229,229,229,0.80);
+}
+
+.mod_coupon_wrap .top_containt .price{
+	color:#FF6D6D;
+	font-size:32px;
+	font-weight:bold;
+	float:left;
+}
+
+.mod_coupon_wrap .cp_main_containt{
+	text-align:left;
+	float:left;
+	margin-left:15px;
+}
+
+.mod_coupon_wrap .cp_main_containt p{
+	line-height:21px;
+}
+
+.mod_coupon_wrap .top_line{
+	position:absolute;
+	bottom:32px;
+	left:5px;
+	width:180px;
+	border-bottom:1px solid #eee;
+}
+
+.mod_coupon_wrap .lingqu{
+	display:inline-block;
+	margin-top:12px;
+	padding-top:7px;
+}
+
+.mod_coupon_wrap .youjiantou{
+	width:8px;
+	height:8px;
+}
+
+.cp_main_containt .redh3{
+	font-size:14px;
+	font-weight:bold;
+	color:#FF6D6D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

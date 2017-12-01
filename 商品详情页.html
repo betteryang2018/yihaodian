@@ -1,0 +1,1014 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,mininum-scale=1,user-scalable=no">
+<title>商品详情页</title>
+<link href="css/商品详情页.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <!--header部分 start-->
+  <div class="head_wrapper">
+        <!--这是topbar部分-->
+       <div class="topbar_wrapper_color">
+        <div class="topbar_wrapper">
+          <div class="topbar_left">
+            <img src="image/icon/地址.png" class="tubiao_iconfont">
+            <span class="hd_province">送货地址：</span>
+            <span class="hd_province_item">东莞市</span>
+          </div>
+          <!--topbar 右侧-->
+          <div class="topbar_right">
+            <ul>
+              <li>
+              <!--未登录状态-->
+                <div class="un_login">
+                  <span class="hd_hi">HI,</span>
+                  <a href="#" class="hd_login_link" target="_blank">请登录</a>
+                  <a href="#" class="hd_regist_link" target="_blank">注册</a>
+                </div>
+              </li>
+              <li>
+                <div class="menu_mine">
+                  <a href="#" class="menu_mine_link" target="_blank">
+                    <img src="image/icon/订单.png" class="tubiao_iconfont">
+                    我的订单
+                  </a>
+                </div>
+              </li>
+              <li class="hd_has_child">
+                <div class="menu_main">
+                  <a href="#" class="menu_mine_link" target="_blank">
+                     充值中心
+                     <img src="image/icon/向下箭头.png" class="tubiao_iconfont">
+                  </a>
+                 </div>
+                 <div class="menu_main_list">
+                   <a href="#" target="_blank">话费充值</a> 
+                   <a href="#" target="_blank">流量充值</a>
+                 </div>
+              </li>
+              <li class="hd_has_child">
+                <div class="menu_main">
+                  <a href="#" class="menu_mine_link" target="_blank">
+                     客户服务
+                     <img src="image/icon/向下箭头.png" class="tubiao_iconfont">
+                  </a>
+                 </div>
+                 <div class="menu_main_list">
+                   <a href="#" target="_blank">包裹跟踪</a> 
+                   <a href="#" target="_blank">常见问题</a>
+                   <a href="#" target="_blank">在线退换货</a> 
+                   <a href="#" target="_blank">配送范围</a>
+                 </div>
+              </li>
+              <li class="hd_has_child">
+                <div class="menu_main">
+                  <a href="#" class="menu_mine_link" target="_blank">
+                     网站导航
+                     <img src="image/icon/向下箭头.png" class="tubiao_iconfont">
+                  </a>
+                 </div>
+                 <div class="menu_main_list">
+                   <a href="#" target="_blank">1号商城 </a> 
+                   <a href="#" target="_blank">1号社区 </a>
+                   <a href="#" target="_blank">网站联盟</a> 
+                   <a href="#" target="_blank">招商通道</a>
+                   <a href="#" target="_blank">分销平台</a>
+                   <a href="#" target="_blank">企业采购</a> 
+                   <a href="#" target="_blank">充值中心</a>
+                 </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+       </div>
+         <!--这是header_main部分-->
+        <div class="hd_header_wrap">
+         <div class="headerwrap_main">
+          <div class="left_logo">
+            <a href="#" class="logolink" title="1号店logo">
+              <img src="image/ChEi11jziCeADU2FAAAcush2hwQ74100.png" class="hd_logo_img">
+              </a>
+          </div>
+          
+          <!--allsort_btn begin-->
+          <a href="javacript:;" class="allsort_btn" title="下拉分类菜单">
+            所有商品分类
+            <img src="image/icon/1498277164.png">
+          </a>
+                
+          <!--headmain_right begin-->
+         <div class="hd_header_wrap">
+          <div class="hd_main_right">
+            <div class="mainright_wrap">
+              <div class="clearfix">
+                <div class="header_form_wrap">
+                  <div class="hd_header_form" >
+                    <input class="hd_right_ipt" value="请输入关键词" type="text"/>
+                    <button class="hd_right_btn" type="button">
+                      <img src="image/icon/搜索_搜索.png" class="sousuo_iconfont">
+                    </button>
+                  </div>
+                  <p class="hd_header_keywordsshow">
+                    <a href="#" target="_blank" title="平底锅">平底锅</a> 
+                    <a href="#" target="_blank" title="橄榄油">橄榄油</a>
+                    <a href="#" target="_blank" title="面包">面包</a>
+                    <a href="#" target="_blank" title="蛋糕">蛋糕</a>
+                    <a href="#" target="_blank" title="面膜">面膜</a>
+                    <a href="#" target="_blank" title="花王">花王</a>
+                    <a href="#" target="_blank" title="卫生巾">卫生巾</a>
+                    <a href="#" target="_blank" title="米">米</a>
+                    <a href="#" target="_blank" title="生抽">生抽</a>
+                    <a href="#" target="_blank" title="盐">盐</a>
+                  </p>
+                </div>
+                <div class="hd_header_cart">
+                  <img src="image/icon/购物车.png" class="header_cart_iconfont">
+                  <span class="gouwuche">购物车</span>
+                </div>
+               </div>
+              <!--hd_header_nav begin!-->
+              <div class="hd_header_nav">
+                <ul class="tuijian_nav">
+                  <li>
+                    <a href="#" target="_blank" title="1号抢购">1号抢购</a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" title="1号团">1号团</a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" title="领券中心">领券中心</a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" title="商城优选">商城优选</a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" title="全球进口">全球进口</a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" title="活色生鲜">活色生鲜</a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" title="美妆馆">美妆馆</a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" title="家居馆">家居馆</a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" title="电器城">电器城</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+         </div>
+        </div>
+      </div>
+     </div>
+  </div>
+  <!--header部分 end-->
+  
+  <!--body部分 start-->
+  <div class="main_body">
+    <div class="dianzhao">
+      <div class="pic_wrapper">
+        <img class="dianzhao_pic" src="image/inshop_logo.jpg">
+      </div>
+      <div class="btbar_wrapper">
+        <div class="wrap_bottom_bar">
+          <span class="store_first">店铺首页</span>
+          <span class="all_sort">
+            全部分类
+            <img src="image/icon/1498278999(1).png">
+          </span>
+          <span class="take_care">
+            关注店铺
+            <img src="image/icon/1498279008(1).png">
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    <!--商品展示主块 start-->
+    <div class="wrap main_promo">
+      <div class="promo_top">
+        <div class="promo_top1">
+          <a class="sort_total" href="#" >零售特产、粮油</a>
+          <img src="image/icon/1498284818(1).png">
+          <a href="#" >厨房调料</a>
+          <img src="image/icon/1498284818(1).png">
+          <a href="#" >醋</a>
+          <img src="image/icon/1498284818(1).png">
+          <a href="#" >凤球唛PHOENIX&quot;EARTH</a>
+          <img src="image/icon/1498284818(1).png">
+          <span>凤球唛PHOENIX&quot;EARTH 意大利进口 卡利亚摩德<em>...</em></span>
+        </div>
+        <div class="promo_topr">
+          <div class="promo_topr_left">
+            <a class="store_name" href="#" >四季青诚食品专营店</a>
+            <img src="image/ChEiBFfYs2KAYrLqAAABsz6_9ok40800.png">
+            <span class="line_r"></span>
+            <a class="allsort2" href="#">全部分类</a>
+          </div>
+          <span class="search">
+            <input class="keywords" type="search" placeholder="&nbsp;关键词">
+            搜本店 
+          </span>
+          <button class="into_store">进入店铺</button>
+        </div>
+      </div>
+      <div class="promo_containt">
+        <div class="left">
+          <div class="big_pic">
+            <img src="image/1498282273.png">
+          </div>
+          <div class="small_pic">
+            <a href="javasript:;" class="special">
+              <img src="image/ChEi1FhsrhmAV30EAAPanbAgmbk85400_50x50.jpg">
+            </a>
+            <a href="javasript:;">
+              <img src="image/ChEi11hsrhmAS_2XAASAVaQqDbI15300_50x50.jpg">
+            </a>
+            <a href="javasript:;">
+              <img src="image/ChEi1VhsrhmALxxVAAYmPgl7YPk45800_50x50.jpg">
+            </a>
+            <a href="javasript:;">
+              <img src="image/ChEi3Fhsrh2AFN_MAAPTTmUDueI64700_50x50.jpg">
+            </a>
+            <a href="javasript:;">
+              <img src="image/ChEi1Fhsrh6AKftlAAasbsD_ToY10900_50x50.jpg">
+            </a>
+          </div>
+          <div class="bottom_text">
+            商品编号&nbsp;0609296346
+            <span class="line_r"></span>
+            <a class="share" href="javascript:;">
+              <img src="image/icon/1498282574(1).png">
+              分享
+              <img src="image/icon/1498282579(1).png">
+            </a>
+            <a class="tcr" href="javascript:;">
+              <img src="image/icon/1498282585(1).png">
+              关注
+              <em>4</em>
+            </a>
+          </div>
+        </div>
+        <div class="medium">
+          <p class="line1">凤球唛PHOENIX & EARTH 意大利进口 卡利亚摩德纳黑醋500ml 沙拉油醋汁</p>
+          <div class="line2">
+            <div class="price_box">
+              <i>价格</i>
+              <span class="price_value">
+                <em>&yen;</em>
+                37
+              </span>
+            </div>
+            <div class="cart_hp">
+              <span class="cart_ys">
+                <img src="image/icon/1498291195(1).png">
+                已售
+                <em>35</em>
+              </span>
+              <span class="haopin">
+                <img src="image/icon/1498291203(1).png">
+                好评率
+                <em><strong>100%</strong></em>
+                <span class="gray">[评论<em>6</em>条]</span>
+              </span>
+            </div>
+          </div>
+          <div class="line3">
+            <em>促销</em>
+            <span>满减</span>
+            本店铺单笔满¥<i>100</i>，立减¥<i>5</i>，每单仅享1次，...
+            <a class="jdgg" href="#" class="blue_font">进店逛逛</a>
+            <a class="ck" href="javascript:;" class="zkck">
+              共<em>2</em>项，展开查看
+              <img src="image/icon/1498291628(1).png">
+            </a>
+          </div>
+          <div class="line456_box">
+            <div class="line456_left">
+              送货至
+            </div>
+            <div class="line456_right">
+              <div class="line4">
+                <input type="text" value="&nbsp;广东东莞市莞城区">
+                <img src="image/icon/1498291855(1).png">
+                运费<em>7.00</em>元&nbsp;&nbsp;满<em>99.00</em>包邮，由
+                <a href="#" >四季青诚食品专营店</a>
+                配送并提供售后
+                <span>服务</span>
+              </div>
+              <p class="line5">本商品由1号店入驻商家提供</p>
+              <div class="line6">
+                <input type="text" value="1">
+                <img src="image/icon/1498292045(1).png">
+                <button class="jrgwc">
+                  <img src="image/icon/购物车white.png">
+                  <em>加入购物车</em>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="line7">
+            <em>保障</em>
+            <a href="#">
+              <img src="image/icon/1498292241(1).png">
+              不支持7天无理由退货
+            </a>
+            <a href="#">
+              <img src="image/icon/1498292241(1).png">
+              正品保障
+            </a>
+            <a href="#">
+              <img src="image/icon/1498292241(1).png">
+              假一赔三
+            </a>
+            <a href="#">
+              <img src="image/icon/1498292241(1).png">
+              按时发货
+            </a>
+            <a class="zffs" href="#">
+              支付方式
+              <img src="image/icon/1498292358(1).png">
+            </a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right1">
+            买了还买
+            <a href="javascript:;" class="hyp">
+              <img src="image/icon/1498315467(1).png">
+              换一批
+            </a>
+          </div>
+          <div class="right2">
+            <div class="pro1">
+              <a href="#" class="pro_pic">
+                <img src="image/ChEwoljH17eAdJEIAAJsOc7XoJ484300_120x120.jpg">
+              </a>
+              <a href="#" class="pro_tit">
+                凤球唛PHOENIX&nbsp;&nbsp;&&nbsp;&nbsp;EA...
+              </a>
+              <A href="#" class="pro_price">
+                &yen;43.9
+              </a>
+            </div>
+            <div class="pro2">
+              <a href="#" class="pro_pic">
+                <img src="image/ChEwoFheeq-AdSYIAAVTEoS3u5006800_120x120.jpg">
+              </a>
+              <a href="#" class="pro_tit">
+                凤球唛PHOENIX&nbsp;&nbsp;& &nbsp;&nbsp;EA...
+              </a>
+              <A href="#" class="pro_price">
+                &yen;25
+              </a>
+            </div>
+            <div class="pro3">
+              <a href="#" class="pro_pic">
+                <img src="image/ChEwoFheDgaAYyPAAAGDT7vVDVY73400_120x120.jpg">
+              </a>
+              <a href="#" class="pro_tit">
+                凤球唛PHOENIX&nbsp;&nbsp;四季...
+              </a>
+              <A href="#" class="pro_price">
+                &yen;25
+              </a>
+            </div>
+          </div>
+          <a class="right3">
+            去店铺逛逛
+            <img src="image/icon/1498315979(1).png">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--商品展示主块 end-->
+  </div>
+  
+  <!--fm_containt商品详情部分 start-->
+  <div class="wrap fm_containt">
+    <div class="fm_left_containt">
+      <div class="left1">
+        <div class="store_name">
+          <a href="#" target="_blank" title="四季青城食品专营店">四季青城食品专...</a>
+          <img src="image/ChEiBFfYs2KAYrLqAAABsz6_9ok40800.png">
+        </div>
+        <div class="second_box">
+          <div class="conect">
+            联系卖家：
+            <a href="#" target="_top">
+              <i class="kfbg"></i>
+            </a>
+          </div>
+          <div class="text_top">
+            <span class="left_col">店铺动态评分</span>
+            <span class="right_col">同行业相比</span>
+          </div>
+          <ul>
+            <li>
+              <span class="left_col">
+                描述相符：
+                <a href="#" target="_blank">4.90</a>
+              </span>
+              <span class="right_col">
+                <img src="image/icon/1498440854(1).png">
+                <a href="#" target="_blank">0.97%</a>
+              </span>
+            </li>
+            <li>
+              <span class="left_col">
+                服务态度：
+                <a href="#" target="_blank">4.95</a>
+              </span>
+              <span class="right_col red">
+                <img src="image/icon/1498440889(1).png">
+                <a href="#" target="_blank">28.44%</a>
+              </span>
+            </li>
+            <li>
+              <span class="left_col">
+                发货速度：
+                <a href="#" target="_blank">4.83</a>
+              </span>
+              <span class="right_col">
+                <img src="image/icon/1498440854(1).png">
+                <a href="#" target="_blank">1.40%</a>
+              </span>
+            </li>
+          </ul>
+          <div class="text_bottom">
+            <a href="javasript:;"><button class="take_care">关注店铺</button></a>
+            <a href="#" target="_blank"><button class="take_in">进入店铺</button></a>
+          </div>
+      </div>
+      </div>
+      <div class="left2">
+        <div class="row1_part">
+          <h4>商品分类</h4>
+        </div>
+        <div class="row2_part">
+          <ul>
+            <li class="first">
+              <h5>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  查看所有商品
+                  <img class="icon2" src="image/icon/1498441620(1).png">
+                </a>
+              </h5>
+              <div class="pmfs">
+                <a href="#">按销量</a>
+                <a href="#">按价格</a>
+                <a href="#">按评价</a>
+                <a href="#">按新品</a>
+              </div>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+            <li>
+                <img class="icon1" src="image/icon/1498441664(1).png">
+                <a href="#" target="_blank">
+                  中西餐食材.调料
+                </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="fm_right_containt">
+      <div class="part1">
+        <a href="javascript:;" class="pro_int">商品介绍</a>
+        <a href="javascript:;" class="pinjia">评价<em>6</em></a>
+        <a href="javascript:;">规格及包装</a>
+        <a href="javascript:;">售后服务</a>
+        <a href="javascript:;">商品问答</a>
+      </div>
+      <div class="part2">
+        <dl>
+          <dt>规格参数</dt>
+          <dd>地区：其它</dd>
+          <dd>品牌：凤球唛PHOENIX & EARTH</dd>
+          <dd>产地：意大利</dd>
+          <dd>进口/国产：进口</dd>
+          <dd>种类：其它醋</dd>
+          <dd>包装：瓶装</dd>
+          <dd>食品保质期：5年</dd>
+          <dd>净含量(ml):500ml</dd>
+        </dl>
+      </div>
+      <div class="part3">
+        <div class="redbar">
+          自定义广告
+          <span>发货通知</span>
+        </div>
+        <div class="pg_text">
+          <p><strong>16号18点开始</strong>只发：上海、江苏、浙江、安徽、广东</p>
+          <p><strong>17号18点开始</strong>只发：上海、江苏、浙江、安徽。</p>
+          <p><strong>20号18点开始</strong> &nbsp;&nbsp;&nbsp;全部停发。发顺到付请联系客服</p>
+          <p><strong>年后正月初八</strong>开始恢复发货，初十开始处理售后。</p>
+          <p>紧急联系：18362390302</p>
+        </div>
+      </div>
+      <p class="part4">
+        <img src="image/1.jpg">
+        <img src="image/2.jpg">
+        <img src="image/3.jpg">
+        <img src="image/4.jpg">
+        <img src="image/5.jpg">
+        <img src="image/6.jpg">
+        <img src="image/7.jpg">
+        <img src="image/8.jpg">
+        <img src="image/9.jpg">
+        <img src="image/10.jpg">
+      </p>
+      <div class="part5">
+        如发现商品介绍信息有误，您可以点击
+        <a href="#" target="_blank">【信息纠错】</a>
+        反馈给我们，谢谢。
+      </div>
+      <div class="part6">
+        <h4>服务承诺</h4>
+        <p>网站所售产品均为厂商正品，如有任何问题可与我们客服人员联系，我们会在第一时间跟您沟通处理。我们将争取以更具竞争力的价格、更优质的服务来满足您最大的需求。开箱验货：签收时在付款后与配送人员当面核对：商品及配件、应付金额、商品数量及发货清单、发票（如有）、赠品（如有）等；如存在包装破损、商品错误、商品短缺、商品存在质量问题等影响签收的因素，请您可以拒收全部或部分商品，相关的赠品，配件或捆绑商品应一起当场拒收；为了保护您的权益，建议您尽量不要委托他人代为签收；如由他人代为签收商品而没有在配送人员在场的情况下验货，则视为您所订购商品的包装无任何问题。</p>
+
+        <h4>温馨提示</h4>
+        <p>由于部分商品包装更换较为频繁，因此您收到的货品有可能与图片不完全一致，请您以收到的商品实物为准，同时我们会尽量做到及时更新，由此给您带来不便多多谅解，谢谢！</p>
+        <h4>价格说明</h4>
+        <p><strong>1号店价：</strong>商品在1号店平台上，不参加降价让利促销团购等活动时的常规销售价格。</p>
+        <p><strong>1号团：</strong>商品在1号店平台上，参加团购活动的团购商品的销售价格。</p>
+        <p><strong>参考价：</strong>商品展示的参考价，可能是品牌专柜标价、商品吊牌价或由品牌供应商提供的正品零售价（如厂商
+指导价、建议零售价等）或该商品在1号店平台曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价、销售商门店曾经展示过的销售价等可能会与您购物时展示的不一致，该价格仅供您参考。</p>
+        <p><strong>问题反馈：</strong>如有疑问，建议您在购买前联系客服咨询。</p>
+      </div>
+      
+      <!--好评part start-->
+      <div class="part7">
+        <div class="hp_header">
+          <div class="left_hpl">
+            <div class="circle_containt">
+              <span class="hudr">100<em>%</em></span>
+              <span>好评率</span>
+            </div>
+            <p>共6人评论</p>
+            <h4>大家认为</h4>
+            <img src="image/icon/1498462665(1).png">
+          </div>
+          <div class="middle_nr">
+            <button>正品(1)</button>
+          </div>
+          <div class="right_text">
+            <strong>评论获成长值</strong>
+            <span><em>.</em>评论可获<i>5</i>成长值，晒单通过可获<i>5</i>成长值</span>
+          </div>
+        </div>
+        
+        <div class="hp_body">
+          <div class="top_line">
+            <form>
+              <a href="javasript:;" class="first">
+                  <input type="radio" name="hp" id="quanbu"/>
+                  <label for="quanbu">全部<em>(6)</em></label>
+              </a>
+              <a href="javasript:;">
+                  <input type="radio" name="hp" id="shaidan"/>
+                  <label for="shaidan">晒单<em>(0)</em></label>
+              </a>
+              <a href="javasript:;">
+                  <input type="radio" name="hp" id="zp"/>
+                  <label for="zp">追评<em>(0)</em></label>
+              </a>
+              <a href="javasript:;">
+                  <input type="radio" name="hp" id="haopin"/>
+                  <label for="haopin">好评<em>(0)</em></label>
+              </a>
+              <a href="javasript:;">
+                  <input type="radio" name="hp" id="zhongpin"/>
+                  <label for="zhongpin">中评<em>(0)</em></label>
+              </a>
+              <a href="javasript:;">
+                  <input type="radio" name="hp" id="chapin"/>
+                  <label for="chapin">差评<em>(0)</em></label>
+              </a>
+            </form>
+          
+          </div>
+          
+          <div class="hp_main">
+            <div class="pl_line1">
+              <div class="user_ifm">
+                <img src="image/peopleicon_05.gif" class="face">
+                <span class="name">136***</span>
+                <span class="level">铂金</span>
+              </div>
+              <dl class="plnr">
+                <dt>评分：<i class="star"></i></dt>
+                <dd>内容：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不错的商家和商品</dd>
+                <dd>
+                  <span class="time">2017-05-25&nbsp;&nbsp;14：47：10</span>
+                  <div class="btn">
+                    <button class="zan">赞(1)</button>
+                    <button class="huifu">回复(0)</button>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+            <div class="pl_line1">
+              <div class="user_ifm">
+                <img src="image/peopleicon_05.gif" class="face">
+                <span class="name">136***</span>
+                <span class="level">铂金</span>
+              </div>
+              <dl class="plnr">
+                <dt>评分：<i class="star"></i></dt>
+                <dd>内容：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不错的商家和商品</dd>
+                <dd>
+                  <span class="time">2017-05-25&nbsp;&nbsp;14：47：10</span>
+                  <div class="btn">
+                    <button class="zan">赞(1)</button>
+                    <button class="huifu">回复(0)</button>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+            <div class="pl_line1">
+              <div class="user_ifm">
+                <img src="image/peopleicon_05.gif" class="face">
+                <span class="name">136***</span>
+                <span class="level">铂金</span>
+              </div>
+              <dl class="plnr">
+                <dt>评分：<i class="star"></i></dt>
+                <dd>内容：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不错的商家和商品</dd>
+                <dd>
+                  <span class="time">2017-05-25&nbsp;&nbsp;14：47：10</span>
+                  <div class="btn">
+                    <button class="zan">赞(1)</button>
+                    <button class="huifu">回复(0)</button>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+            <div class="pl_line1">
+              <div class="user_ifm">
+                <img src="image/peopleicon_05.gif" class="face">
+                <span class="name">136***</span>
+                <span class="level">铂金</span>
+              </div>
+              <dl class="plnr">
+                <dt>评分：<i class="star"></i></dt>
+                <dd>内容：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不错的商家和商品</dd>
+                <dd>
+                  <span class="time">2017-05-25&nbsp;&nbsp;14：47：10</span>
+                  <div class="btn">
+                    <button class="zan">赞(1)</button>
+                    <button class="huifu">回复(0)</button>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+            <div class="pl_line1">
+              <div class="user_ifm">
+                <img src="image/peopleicon_05.gif" class="face">
+                <span class="name">136***</span>
+                <span class="level">铂金</span>
+              </div>
+              <dl class="plnr">
+                <dt>评分：<i class="star"></i></dt>
+                <dd>内容：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不错的商家和商品</dd>
+                <dd>
+                  <span class="time">2017-05-25&nbsp;&nbsp;14：47：10</span>
+                  <div class="btn">
+                    <button class="zan">赞(1)</button>
+                    <button class="huifu">回复(0)</button>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+            <div class="pl_line1">
+              <div class="user_ifm">
+                <img src="image/peopleicon_05.gif" class="face">
+                <span class="name">136***</span>
+                <span class="level">铂金</span>
+              </div>
+              <dl class="plnr">
+                <dt>评分：<i class="star"></i></dt>
+                <dd>内容：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不错的商家和商品</dd>
+                <dd>
+                  <span class="time">2017-05-25&nbsp;&nbsp;14：47：10</span>
+                  <div class="btn">
+                    <button class="zan">赞(1)</button>
+                    <button class="huifu">回复(0)</button>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+            
+            <a class="ckpl" href="#">查看所有评论</a>
+          </div>
+        </div>
+      </div>
+      <div class="part8 ShangPinTuiJian">
+        <div class="top_bar_tit">
+          <span class="line_left"></span>
+          <span class="tit_text">看了此商品的会员还常看的商品</span>
+          <span class="line_right"></span>
+        </div>
+        <div class="pro_tuijian_nr">
+          <a href="#" target="_blank">
+            <img src="image/ChEi1FipMo-AWGHrAAf04e-F7yQ59400_180x180.jpg">
+            <p class="price">&yen;69</p>
+            <p class="tit_text">凤球唛PHOENIX&nbsp;&nbsp;& &nbsp;&nbsp;EARTH&nbsp;&nbsp;意大利进口&nbsp;&nbsp;卡利亚摩德纳黑醋</p>
+          </a>
+          <a href="#" target="_blank">
+            <img src="image/ChEi2FjZ6OqAB5TvAAB0d0WYa4Q96700_180x180.jpg">
+            <p class="price">&yen;69</p>
+            <p class="tit_text">凤球唛PHOENIX&nbsp;&nbsp;& &nbsp;&nbsp;EARTH&nbsp;&nbsp;意大利进口&nbsp;&nbsp;卡利亚摩德纳黑醋</p>
+          </a>
+          <a href="#" target="_blank">
+            <img src="image/ChEi3FjNK4OAXytbAAZBu0xeeMw54900_180x180.jpg">
+            <p class="price">&yen;69</p>
+            <p class="tit_text">凤球唛PHOENIX&nbsp;&nbsp;& &nbsp;&nbsp;EARTH&nbsp;&nbsp;意大利进口&nbsp;&nbsp;卡利亚摩德纳黑醋</p>
+          </a>
+          <a href="#" target="_blank">
+            <img src="image/ChEwoljH17eAdJEIAAJsOc7XoJ484300_180x180.jpg">
+            <p class="price">&yen;69</p>
+            <p class="tit_text">凤球唛PHOENIX&nbsp;&nbsp;& &nbsp;&nbsp;EARTH&nbsp;&nbsp;意大利进口&nbsp;&nbsp;卡利亚摩德纳黑醋</p>
+          </a>
+          <a href="#" target="_blank">
+            <img src="image/ChEwoFheeq-AdSYIAAVTEoS3u5006800_180x180.jpg">
+            <p class="price">&yen;69</p>
+            <p class="tit_text">凤球唛PHOENIX&nbsp;&nbsp;& &nbsp;&nbsp;EARTH&nbsp;&nbsp;意大利进口&nbsp;&nbsp;卡利亚摩德纳黑醋</p>
+          </a>
+          
+        </div>
+      </div>
+      <div class="part9 DianPuSouSuo">
+        <div class="part_top">
+          <div class="col1">
+            <a href="#" target="_blank">四季青诚食品专营店</a>
+            <i class="line"></i>
+            <span>描述 <em>4.90</em> 服务 <em>4.95</em> 物流 <em>4.83</em></span>
+          </div>
+          <span class="col2">
+            <input type="text" value="&nbsp;关键词"/>
+            搜本店
+          </span>
+          <a href="#"><button class="col3">进入店铺</button></a>
+        </div>
+        <div class="part_bottom">
+          <p>商品问答</p>
+          <p class="ud_color">因厂家更改商品包装、场地、附配件等不做提前通知，以下内容仅供参考！给您带来的不变还请谅解。谢谢</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--fm_containt商品详情部分 end-->
+  
+  <!--body部分 end-->
+  
+  <!--footer部分 start-->
+    <div class="footer_wrap">
+    <div class="wrap wrap_footer_begin">
+      <div class="footer_top_box">
+        <a href="#" target="_blank">
+          <img src="image/CgQI0lWskgmADBnsAAAPZvcSh3E68900.png">
+          <b>正品保障</b>
+          <span>正品行货&nbsp;放心选购</span>
+        </a>
+        <a href="#" target="_blank">
+          <img src="image/footerIconPic2.png">
+          <b>满68包邮</b>
+          <span>满68元&nbsp;免运费</span>
+        </a>
+        <a href="#" target="_blank">
+          <img src="image/CgQIz1WslI-Adao3AAAN5b_ut2I80100.png">
+          <b>售后无忧</b>
+          <span>7天无理由退货</span>
+        </a>
+        <a href="#" target="_blank">
+          <img src="image/ChEi11WsyiyALBbiAAAN9lEEK5M33200.png">
+          <b>准时送达</b>
+          <span>收货时间由你做主</span>
+        </a>
+        <div class="footer_under_line"></div>
+      </div>
+      <div class="footer_medium_box">
+        <div class="dlcontaint">
+          <dl>
+            <dt>新手入门</dt>
+            <dd>购物流程</dd>
+            <dd>会员制度</dd>
+            <dd>订单查询</dd>
+            <dd>发票制度</dd>
+            <dd>常见问题</dd>
+          </dl>
+          <dl>
+            <dt>支付方式</dt>
+            <dd>货到付款</dd>
+            <dd>网上支付</dd>
+            <dd>银行转账</dd>
+            <dd>礼品卡支付</dd>
+            <dd>其它支付</dd>
+          </dl>
+          <dl>
+            <dt>配送服务</dt>
+            <dd>配送范围及运费</dd>
+            <dd>配送进度查询</dd>
+            <dd>自提服务</dd>
+            <dd>商品验货与签收</dd>
+          </dl>
+          <dl>
+            <dt>售后保障</dt>
+            <dd>退换货政策</dd>
+            <dd>退换货流程</dd>
+            <dd>退款说明</dd>
+            <dd>延保说明页面</dd>
+            <dd>联系客服</dd>
+          </dl>
+          <dl>
+            <dt>商家合作</dt>
+            <dd>商家入驻</dd>
+            <dd>商必赢</dd>
+            <dd>平台规则</dd>
+            <dd>企业采购</dd>
+          </dl>
+        </div>
+        <div class="erweima">
+          <div class="ewm_left">
+            <span>APP更优惠</span>
+            <img src="image/CgQCr1KW1juAFH9YAAAatCrcuRI48200.png">
+          </div>
+          <div class="ewm_right">
+            <span>加微信查订单</span>
+            <img src="image/ChEi3Fj518KAFF5SAABtGRNmQM062100.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom_box">
+        <p class="one">
+          <a href="#" target="_blank">关于1号店</a>
+          ｜
+          <a href="#" target="_blank">我们的团队</a>
+          ｜
+          <a href="#" target="_blank">网站联盟</a>
+          ｜
+          <a href="#" target="_blank">热门搜索</a>
+          ｜
+          <a href="#" target="_blank">友情链接</a>
+          ｜
+          <a href="#" target="_blank">1号店社区</a>
+          ｜
+          <a href="#" target="_blank">诚征英才</a>
+          ｜
+          <a href="#" target="_blank">商家登录</a>
+          ｜
+          <a href="#" target="_blank">供应商登录</a>
+          ｜
+          <a href="#" target="_blank">放心搜</a>
+          ｜
+          <a href="#" target="_blank">1号店新品</a>
+          ｜
+          <a href="#" target="_blank">开放平台</a>
+          ｜
+          <a href="#" target="_blank">沃尔玛</a>
+        </p>
+        <p class="two">
+          <a href="#" target="_blank">沪ICP备16050468号</a>
+          ｜
+          <a href="#" target="_blank">沪B2-20170039</a>
+          ｜
+          <a href="#" target="_blank">经营执照</a>
+          ｜
+          <a href="#" target="_blank">互联网药品信息服务资格证</a>
+          ｜
+          <a href="#" target="_blank">违法和不良信息举报电话：0514-85899118</a>
+        </p>
+        <p class="three">Copyright© 1号店网上超市 2007-2017，All Rights Reserved</p>
+        <p class="four">
+          <a href="#" target="_blank">
+            <img src="image/1498533868(1).png">
+          </a>
+          <a href="#" target="_blank">
+            <img src="image/1498533879.png">
+          </a>
+           <a href="#" target="_blank">
+            <img src="image/1498533900(1).png">
+          </a>
+           <a href="#" target="_blank">
+            <img src="image/CgMBmVLfYZGALWNHAAAOxFbda9472600.gif">
+          </a>
+           <a href="#" target="_blank">
+            <img src="image/CgQCr1PQy1CAF7vaAABDexsiEYM24800.jpg">
+          </a>
+           <a href="#" target="_blank">
+            <img src="image/ChEi1VcfPl2AC1T8AAANFrEfJlw97300.jpg">
+          </a>
+          <a href="#" target="_blank">
+            <img src="image/ChEi2lh171KAJrGlAAALl_uZt0E75600.jpg">
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--footer部分 end-->
+</body>
+</html>

@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html{
+	font:12px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#333;
+}
+
+body,input,button,h1,h2,h3,h4,h5,h6,dl,dt,dd,li,ol,ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	cursor:pointer;
+	color:#0E6DC6;
+}
+
+body{
+	position:relative;
+}
+
+.wrap{
+	position:relative;
+	width:1200px;
+	margin:0 auto;
+}
+
+img{
+	border:none;
+}
+
+/*.....................header部分css begin..........................*/
+
+.header{
+	position:relative;
+	height:50px;
+	border:1px solid #e1e1e1;
+	box-shadow:0px 0 8px 0 rgba(51,51,51,0.20);
+	padding:16px;
+}
+
+.wrap_nologin{
+	position:relative;
+	width:1200px;
+	margin:0 auto;
+}
+
+.header_left{
+	float:left;
+
+}
+
+.header_right{
+	position:absolute;
+	right:27px;
+	top:-12px;
+}
+
+.header_right .welcome{
+	color:#999;
+	margin-right:10px;
+}
+
+.header_right .help_center{
+	display:inline-block;
+	position:relative;
+	left:25px;
+}
+
+.help_center .yongquan{
+	display:inline-block;
+	position:relative;
+	top:12px;
+	right:-5px;
+	width:25px;
+	height:25px;
+	background:
+	url(regist.png) no-repeat -344px 0;
+}
+
+
+.help_center .dxjiantou{
+	position:relative;
+	top:10px;
+	left:3px;
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:
+	url(regist.png)  no-repeat -347px -30px;
+}
+
+/*.....................main_body部分css begin..........................*/
+
+.main_body{
+	margin-top:70px;
+	width:1000px;
+	height:380px;
+	text-align:center;
+}
+
+.main_body .left_promo{
+	width:600px;
+	height:318px;
+	float:left;
+}
+
+.main_body .right_form_part{
+	width:330px;
+	height:318px;
+	float:right;
+	padding:0 35px;
+}
+
+.user_login_toppart{
+	width:330px;
+	display:inline-block;
+	margin-bottom:-7px;
+}
+
+.user_login_toppart p{
+	display:inline-block;
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+}
+
+.user_login_toppart a{
+	display:inline-block;
+	float:right;
+	margin-top:15px;
+}
+
+.main_form{
+	position:relative;
+}
+
+.user_name input, .password input{
+	width:330px;
+	height:50px;
+	margin-bottom:10px;
+	border:1px solid #DCDCDC;
+}
+
+.nologin_form button{
+    width:330px;
+	height:50px;
+	margin-bottom:5px;
+	border:1px solid #ff4040;
+	border-radius:3px;
+	background-color:#ff4040;
+	color:#fff;
+	font-size:16px;
+	cursor:pointer;
+}
+
+.special_sta{
+	position:relative;
+	margin:5px 0 35px;
+	color:#999;
+}
+
+.special_sta .zddl{
+	display:inline-block;
+	float:left;
+}
+
+.special_sta .zddl input{
+	position:relative;
+	top:2px;
+}
+
+.special_sta .zddl .square{
+	position:absolute;
+	left:-2px;
+	top:1.5px;
+	width:30px;
+	height:30px;
+	display:inline-block;
+	background:url(login_new.png) no-repeat -345px -270px;
+}
+
+.special_sta a{
+	display:inline-block;
+	float:right;
+	color:#999;
+}
+
+.user_name .user_icon{
+	position:absolute;
+	top:18px;
+	left:18px;
+	width:30px;
+	height:30px;
+	display:inline-block;
+	background:url(login_new.png) no-repeat -50px 0px;
+}
+
+.password .password_icon{
+    position:absolute;
+	top:78px;
+	left:18px;
+	width:30px;
+	height:30px;
+	display:inline-block;
+	background:url(login_new.png) no-repeat -150px 0px;
+}
+
+
+/*.....................hzwz部分css begin..........................*/
+
+.hzwz{
+	text-align:left;
+}
+
+.hzwz_more{
+	float:right;
+	color:#999;
+}
+.hzwz_more span{
+	display:inline-block;
+	float:left;
+}
+
+.hzwzjt_icon{
+	display:inline-block;
+	margin-left:5px;
+	margin-top:2px;
+	width:20px;
+	height:20px;
+	background:url(login_new.png) no-repeat -200px 0;
+}
+
+.hzwz_icon a{
+	display:inline-block;
+	margin-right:20px;
+	float:left;
+}
+
+.login_wechat a{
+	position:absolute;
+	right:0px;
+	display:block;
+	width:60px;
+	height:60px;
+	background:url(codeSwich.png) no-repeat -90px 0;
+}
+
+.login_wechat a:hover{
+	position:absolute;
+	right:0px;
+	display:block;
+	width:60px;
+	height:60px;
+	background:url(codeSwich.png) no-repeat -90px -88px;
+}
+
+
+
+
+
+
+
+
+
+/*....................footer部分css begin..........................*/
+
+.footer{
+	text-align:center;
+}

@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html{
+	font:12px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#333;
+}
+
+body,p,form,input,button,ol,ul,il,dl,dt,dd,h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+a{
+	color:#666;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+
+.wrap{
+	margin:0 auto;
+	width:1228px;
+}
+
+img{
+	border:none;
+}
+
+/*..........................seckill_timepart css begin..........................*/
+.seckill_wrap{
+	position:relative;
+	width:1228px;
+	height:140px;
+}
+
+.seckill_wrap a.seckill_timepart{
+	float:left;
+	width:205px;
+	height:140px;
+	background-color:#FF4040;
+	color:#333;
+	text-align:center;
+	font-size:14px;
+}
+
+.seckill_wrap a.seckill_timepart p{
+	line-height:30px;
+}
+
+.seckill_wrap a.seckill_timepart .yhqg{
+	margin-top:12px;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:2px;
+	color:#fff;
+}
+
+.seckill_wrap a.seckill_timepart .bcsy{
+	font-size:14px;
+	color:#333;
+}
+
+.seckill_wrap a.seckill_timepart .span_maohao{
+	font-size:18px;
+	font-weight:bold;
+}
+
+.seckill_wrap a.seckill_timepart .ski_time_style{
+	background-color:#333;
+	display:inline-block;
+	width:37px;
+	height:27px;
+	line-height:26px;
+	font-size:20px;
+	color:#fff;
+}
+
+.seckill_wrap a.seckill_timepart .ski_takemore{
+	color:#fff;
+}
+
+.seckill_wrap a.seckill_timepart .white_jiantou{
+	width:14px;
+	height:11px;
+	line-height:11px;
+	margin-left:-2px;
+}
+
+
+/*..........................seckill_mod_good_wrap css begin..........................*/
+.seckill_mod_good_wrap{
+	float:left;
+	width:1023px;
+}
+
+.seckill_mod_good_wrap .qianggou_good_main{
+	font-size:14px;
+	color:#666;
+	font-family:微软雅黑，microsoft yahei;
+}
+
+.seckill_wrap .qianggou_good_main li{
+	position:relative;
+	width:240px;
+	height:110px;
+	padding:15px 0 15px 15px;
+	float:left;
+}
+
+.seckill_wrap .dotted_line{
+	position:absolute;
+	top:35px;
+	right:0px;
+	height:75px;
+	border-right:1px dotted #E4E4E4;
+	border:0 1px 0 0;
+}
+
+.seckill_wrap .qianggou_good_main li img{
+	position:absolute;
+	top:5px;
+	right:5px;
+	z-index:-1;
+}
+
+.seckill_wrap .good_img_size{
+	margin-top:10px;
+	margin-right:20px;
+	float:right;
+	z-index:-1;
+}
+	
+.seckill_wrap .gdm_left{
+	float:left;
+	width:100px;
+}
+
+.seckill_wrap .gdm_left_last{
+	float:left;
+	text-align:center;
+}
+
+.seckill_wrap .gdm_left_last .good_name_bold{
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.seckill_wrap .good_price{
+	color:#ff4040;
+	font-size:15px;
+	font-weight:bold;
+	margin-top:10px;
+}
+
+.seckill_wrap .gdm_left .cankao_price{
+	color:#B2B2B2;
+	font-size:12px;
+	margin-top:5px;
+}
+
+
+.seckill_wrap .mark_percent{
+	position:absolute;
+	top:4px;
+	right:1px;
+	width:40px;
+	height:36px;
+	padding-top:2px;
+	font-size:12px;
+	background:url(%E5%9B%BE%E6%A0%87/globalhead_sprite.png) no-repeat -160px -150px;
+	color:#fff;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

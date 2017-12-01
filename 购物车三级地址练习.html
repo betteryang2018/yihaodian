@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>购物车三级地址练习</title>
+<link href="css/购物车三级地址练习.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <div class="cart_wrapper">
+    <div class="wrap top_cart">
+      <h1 class="cart_logo">
+        <a href="#" target="_blank" class="yihaodian_logo">
+          <img src="image/logo.png">
+        </a>
+        <a href="#" class="cart_pic">
+          <img src="image/logo_txt.png">
+        </a>
+      </h1>
+      <div class="select_adr">
+        <span class="psz_txt">配送至：</span>
+        <div class="select_adress">
+          <div class="address_visible">
+            <span>广东</span>
+            |
+            <span>东莞市</span>
+            |
+            <span>莞城区</span>
+            <i class="jiantou"></i>
+          </div>
+        </div>
+        <div class="unvisibel_select">
+          <div class="address_visible1">
+            <span class="on">广东</span>
+            <span>东莞市</span>
+            <span>莞城区</span>
+            <i class="tuichu_iconfont"></i>
+          </div>
+          <div class="address_select">
+            <dl>
+              <dt>华北：</dt>
+              <dd>北京</dd>
+              <dd>天津</dd>
+              <dd>河北</dd>
+              <dd>山西</dd>
+              <dd>内蒙古</dd>
+            </dl>
+            <dl>
+              <dt>华东：</dt>
+              <dd>上海</dd>
+              <dd>江苏</dd>
+              <dd>浙江</dd>
+              <dd>安徽</dd>
+              <dd>福建</dd>
+              <dd>山东</dd>
+            </dl>
+            <dl>
+              <dt>华南：</dt>
+              <dd class="on">广东</dd>
+              <dd>广西</dd>
+              <dd>海南</dd>
+            </dl>
+            <dl>
+              <dt>华中：</dt>
+              <dd>江西</dd>
+              <dd>河南</dd>
+              <dd>湖北</dd>
+              <dd>湖南</dd>
+            </dl>
+            <dl>
+              <dt>西南：</dt>
+              <dd>重庆</dd>
+              <dd>四川</dd>
+              <dd>贵州</dd>
+              <dd>云南</dd>
+              <dd>西藏</dd>
+            </dl>
+            <dl>
+              <dt>西北：</dt>
+              <dd>陕西</dd>
+              <dd>甘肃</dd>
+              <dd>青海</dd>
+              <dd>宁夏</dd>
+              <dd>新疆</dd>
+            </dl>
+            <dl>
+              <dt>东北：</dt>
+              <dd>辽宁</dd>
+              <dd>吉林</dd>
+              <dd>黑龙江</dd>
+            </dl>
+          </div>
+        </div>   
+      </div>
+      <div class="search_btn">
+        <span class="search_txt">请输入关键词</span>
+        <img class="iconfont" src="image/搜索_搜索.png">
+      </div>
+    </div>
+    
+    <!--商品展示start-->
+    <div class="wrap main_body">
+      <div class="header_pro">
+        <a href="#" class="check checked">
+          <i class="iconfont"></i>
+          全选
+        </a>
+        <span class="com">商品信息</span>
+        <span class="pri">单价（元）</span>
+        <span class="num">数量</span>
+        <span class="autoum">小计（元）</span>
+        <span class="act">操作</span>
+      </div>
+      <div class="body_pro">
+        <div class="body_pro_top">
+          <a href="#" class="check checked">
+            <i class="iconfont"></i>
+          </a>
+          <a href="#" target="_blank" class="shop_name">
+            同城果鲜生鲜专营店
+          </a>
+          <a href="#" class="javascript:;">
+            <i class="kefu"></i>
+          </a>
+          <div class="pro_top_r">
+            <a href="javascript:;" class="btn_wenhao"></a>
+            <a href="javascript:;" class="coudan_btn">
+              立即凑单
+              <i class="arrow_down"></i>
+            </a>
+          </div>
+        </div>
+        <div class="wrapper_pro_mediun">
+          <div class="body_pro_mediun">
+            <a href="#" class="check checked">
+              <i class="iconfont"></i>
+            </a>
+            <a href="#" target="_blank" class="pro_pic">
+              <img src="image/ChEi3Fk02sGAahl2AAHyXOdh_TM19500_80x80.jpg" width="75" height="75"> 
+            </a>
+            <a href="#" target="_blank" class="pro_tit">
+              同城果鲜TONG CHENG GUO XIAN烟台大樱桃3斤装 新鲜水果
+            </a>
+            
+            <!--价格-->
+            <span class="price"> 59.9</span>
+            <!--数量-->
+            <div class="num">
+              <a href="javascript:;" class="admit_plus">&#8211;</a>
+              <input type="text" value="1">
+              <a href="javascript:;" class="add">+</a>
+            </div>
+            <!--小计-->
+            <div class="amount">
+              <span class="price_amount">59.90</span>
+              <span class="weight_amount">1.500kg</span>
+            </div>
+            <!--操作-->
+            <div class="act">
+              <a href="javascript:;" class="collect_btn">
+                <img src="image/收藏.png">
+              </a>
+              <a href="javascript:;" class="delet_btn">
+                <img src="image/删除.png">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="body_pro_bottom">
+          <span class="amount_weight">重量：1.5kg</span>
+          <span class="amount_price">
+            商品总价：
+            <span class="red_price">
+              <em>&yen;</em>
+              59.90
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    <!--结算工具栏start-->
+    <div class="wrapper_checkout">
+      <div class="checkout">
+        <div class="checkout_left">
+          <a href="javascript:;" class="check checked">
+            <i class="iconfont"></i>
+            全选（共
+              <b>1</b>
+            件）
+          </a>
+          |
+          <span class="plsc">批量删除</span> 
+        </div>
+        <div class="checkout_right">
+          <span class="right1">去结算</span>
+          <div class="right2">
+            合计：
+            <span class="red_price">
+            <em>&yen;</em>
+            59.90
+            </span>
+          </div>
+          <div class="right3">
+            <span>已选商品<b>1</b>件</span>
+            <em>预览</em>
+            |
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

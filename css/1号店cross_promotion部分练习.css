@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{
+	font:12px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#333;
+}
+
+body,p,form,input,button,ol,ul,il,dl,dt,dd,h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+body{
+	background-color:#f5f5f5;
+}
+
+a{
+	color:#666;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+a:hover{
+	color:#ff4040;
+}
+
+.wrap{
+	margin:0 auto;
+	width:1228px;
+}
+
+img{
+	border:none;
+}
+
+/*..............................cross_promotion部分css........................*/
+
+.cross_promotion_wrap{
+	position:relative;
+	height:480px;
+}
+
+.cross_promotion_wrap .wrap_left_bgimg{
+	position:absolute;
+	left:-190px;
+	height:480px;
+}
+
+.cross_promotion_wrap .wrap_right_bgimg{
+	position:absolute;
+	right:-190px;
+	height:480px;
+}
+
+.cross_promotion_wrap .promot_wrap{
+	position:relative;
+	width:1228px;
+	height:480px;
+}
+
+.cross_promotion_wrap .promot_left{
+	position:absolute;
+	top:17px;
+	left:15px;
+	width:1023px;
+	z-index:99px;
+}
+
+.cross_promotion_wrap .promot_left a{
+	margin:-1px -1px;
+}
+
+.cross_promotion_wrap .promot_left a img{
+	width:190px;
+	height:225px;
+	margin-top:-2px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
